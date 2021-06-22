@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+body{
+    background-image: linear-gradient(
+322deg
+,hsla(0,0%,97.3%,.05),hsla(0,0%,97.3%,.05) 72%,rgba(90,90,90,.05) 0,rgba(90,90,90,.05)),linear-gradient(
+187deg
+,rgba(42,42,42,.05),rgba(42,42,42,.05) 77%,hsla(0,0%,50.2%,.05) 0,hsla(0,0%,50.2%,.05)),linear-gradient(
+240deg
+,hsla(0,0%,82.7%,.05),hsla(0,0%,82.7%,.05) 80%,hsla(0,0%,58.8%,.05) 0,hsla(0,0%,58.8%,.05)),linear-gradient(
+90deg
+,#014b95,#033e4a)!important;
+}
+
+.heading_container{
+    text-align: center;
+    padding-top: 104px;
+}
+
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 37px;
+    color: white;
+}
+
+.input{
+    padding-left: 14px;
+    margin-bottom: 19px;
+    background-color: white;
+    width: 274px;
+    height: 51px;
+    padding-top: 10px;
+    border-radius: 55px;
+    
+}
+
+.btn_div{
+    padding-left: 83px;
+}
+
+input{
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 6px;
+}
+
+button{
+    background-color:#158cba;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 90px;
+    outline: none;
+    height: 36px;
+    border-radius: 23px;
+    border: none;
+    margin-top: 1em;
+}
+
+.btn_div{
+    outline: none;
+}
+
+i{
+    margin-left: 6px;
+
+}
+
+input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+.fa-exclamation-triangle{
+    cursor: pointer;
+}
+
+.excl{
+    color: red;
+    //display: none !important;
+    
+}
+
+p{
+    font-family:'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+    
+}
+
+
+
+
+.right{
+   
+}
+
+svg{
+    width: 46em;
+    height: 43em;
+}
+
+.forgot{
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+.sign_up{
+    margin-left: 5px;
+    color: black;
+}
+
+.sign_up:hover{
+    color: white;
+}
+
+.login_svg{
+    width: 2em;
+    height: 2em;
+}
+
+.login{
+    padding-top: 2em;
+    padding-left: 68px;
+}
+
+.login i{
+    font-size: 28px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.login i:hover{
+    color: silver;
+}
