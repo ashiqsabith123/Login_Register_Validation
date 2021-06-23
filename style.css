@@ -47,7 +47,7 @@ input{
     margin-left: 6px;
 }
 
-button{
+.btn_div button{
     background-color:#158cba;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -57,6 +57,9 @@ button{
     border-radius: 23px;
     border: none;
     margin-top: 1em;
+}
+button{
+    outline: none;
 }
 
 .btn_div{
@@ -77,24 +80,21 @@ input::placeholder{
     cursor: pointer;
 }
 
-.excl{
+.excl,.ecxl1{
     color: red;
-    //display: none !important;
+    padding-left: 0em;
+    padding-top: 0em;
+    margin-left: 215px;
+    margin-top: -24px;
+    display: none;
+
     
 }
 
-p{
+.forgot p{
     font-family:'Poppins', sans-serif;
     color: white;
     font-size: 15px;
-    
-}
-
-
-
-
-.right{
-   
 }
 
 svg{
@@ -135,4 +135,21 @@ svg{
 
 .login i:hover{
     color: silver;
+}
+
+.btn_div button:hover{
+    background-color: #026cb8;
+}
+
+.alert{
+    margin-left: -6px;
+    width: 16em;
+    height: 3em;
+    margin-top: 2em;
+    display: none;
+}
+
+.aler{
+    margin-top: -103px;
+    
 }
