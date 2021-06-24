@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(
+322deg
+,hsla(0,0%,97.3%,.05),hsla(0,0%,97.3%,.05) 72%,rgba(90,90,90,.05) 0,rgba(90,90,90,.05)),linear-gradient(
+187deg
+,rgba(42,42,42,.05),rgba(42,42,42,.05) 77%,hsla(0,0%,50.2%,.05) 0,hsla(0,0%,50.2%,.05)),linear-gradient(
+240deg
+,hsla(0,0%,82.7%,.05),hsla(0,0%,82.7%,.05) 80%,hsla(0,0%,58.8%,.05) 0,hsla(0,0%,58.8%,.05)),linear-gradient(
+90deg
+,#014b95,#033e4a)!important;
+}
+
+svg{
+    width: 32em;
+    height: 31em;
+    margin-top: 6em;
+    margin-left: 4em;
+}
